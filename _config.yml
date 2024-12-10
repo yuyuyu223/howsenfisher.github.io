@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "HowsenFisher's Homepage"
-description              : "A Modern and Responsive Academic Personal Homepage."
+description              : "If the Flying General were still there in command."
 repository               : "yuyuyu223/howsenfisher.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,8 +22,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "于淏辰 Haochen Yu"
-  avatar           : "images/yu.jpg"
-  bio              : "Haochen Yu received the B.E. degree of the Department of Computer Science and Technology from the University of Science and Technology Beijing in 2022. Currently, he is pursuing the Ph.D. degree from the University of Science and Technology Beijing. His research focuses on 3D controllable generation and simulation."
+  avatar           : "images/yu1.png"
+  bio              : ""
   location         : "Beijing, China"
   employer         :
   pubmed           : 

@@ -17,25 +17,28 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I received the B.E. degree of the Department of Computer Science and Technology from the University of Science and Technology Beijing in 2022. Currently, I am pursuing the Ph.D. degree from the University of Science and Technology Beijing. His research focuses on 3D controllable generation and simulation.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I have published 4 papers at the top international AI conferences and journals with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'></span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
 
 # 🔥 News
-- *2024.12*: &nbsp;🎉🎉 ProtoCar accepted by AAAI 2025. 
-- *2024.11*: &nbsp;🎉🎉 GET3DGS accepted by TCSVT 2024. 
+- *2024.12*: &nbsp;🎉🎉 ProtoCar accepted by <font color="red">AAAI 2025</font>.
+- *2024.12*: &nbsp;🎉🎉 RRT-MVS accepted by <font color="red">AAAI 2025</font>.
+- *2024.11*: &nbsp;🎉🎉 GET3DGS accepted by <font color="red">TCSVT 2024</font>. 
+- *2024.11*: &nbsp;🎉🎉 HomuGAN requires MINOR REVISIONS for ENGLISH USAGE before <font color="red">TIP</font> acceptance (AQE).
+
 
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2024</div><img src='images/TCSVT2024.jpeg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[GET3DGS: Generate 3D Gaussians Based on Points Deformation Fields](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[GET3DGS: Generate 3D Gaussians Based on Points Deformation Fields](https://ieeexplore.ieee.org/document/10777594)
 
 **Haochen Yu**, Weixi Gong, Jiansheng Chen, Huimin Ma
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC)    [**Code**](https://github.com/HowsenFisher/GET3DGS)    [**Paper**](https://arxiv.org/abs/2407.08888)
+[**Project**](https://get3dgs-projectpage.netlify.app/)   [**Code**](javascript:void(0))    [**Paper**](https://ieeexplore.ieee.org/document/10777594)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
 </div>
@@ -47,11 +50,11 @@ My research interest includes neural machine translation and computer vision. I 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP 2024</div><img src='images/TIP2024.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[HumoGAN: A 3D-aware GAN with the Method of Cylindrical Spatial-Constrained Sampling](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[HumoGAN: A 3D-aware GAN with the Method of Cylindrical Spatial-Constrained Sampling](javascript:void(0))
 
 **Haochen Yu**, Weixi Gong, Jiansheng Chen, Huimin Ma
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC)    [**Code**](https://github.com/HowsenFisher/GET3DGS)    [**Paper**](https://arxiv.org/abs/2407.08888)
+[**Project**](javascript:void(0))    [**Code**](javascript:void(0))    [**Paper**](javascript:void(0))
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
 </div>
@@ -61,11 +64,11 @@ My research interest includes neural machine translation and computer vision. I 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/aaai2025.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[ProtoCar: Learning 3D Vehicle Prototypes from Single-View and Unconstrained driving scene Images](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[ProtoCar: Learning 3D Vehicle Prototypes from Single-View and Unconstrained driving scene Images](javascript:void(0))
 
 Hongyuan Liu, **Haochen Yu**, Bochao Zou, Juntao Lyu, meiqi, Jiansheng Chen, Huimin Ma
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC)    [**Code**](https://github.com/HowsenFisher/GET3DGS)    [**Paper**](https://arxiv.org/abs/2407.08888)
+[**Project**](javascript:void(0))    [**Code**](javascript:void(0))    [**Paper**](javascript:void(0))
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
 </div>
@@ -74,11 +77,11 @@ Hongyuan Liu, **Haochen Yu**, Bochao Zou, Juntao Lyu, meiqi, Jiansheng Chen, Hui
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/aaai2025_2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[RRT-MVS: Recurrent Regularization Transformer for Multi-View Stereo](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[RRT-MVS: Recurrent Regularization Transformer for Multi-View Stereo](javascript:void(0))
 
 Jianfei Jiang, Liyong Wang, **Haochen Yu**, Tianyu Hu, Jiansheng Chen, Huimin Ma
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC)    [**Code**](https://github.com/HowsenFisher/GET3DGS)    [**Paper**](https://arxiv.org/abs/2407.08888)
+[**Project**](javascript:void(0))    [**Code**](javascript:void(0))    [**Paper**](javascript:void(0))
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
 </div>
@@ -90,24 +93,24 @@ Jianfei Jiang, Liyong Wang, **Haochen Yu**, Tianyu Hu, Jiansheng Chen, Huimin Ma
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICM 2021</div><img src='images/meisai.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[A multi-objective nonlinear optimization model; A improved grey prediction model with time delay; fuzzy comprehensive analysis method](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[A multi-objective nonlinear optimization model; A improved grey prediction model with time delay; fuzzy comprehensive analysis method](../assets/file/美赛论文.pdf)
 
 Zhang Yuwei, Chen Fangyi, Yu Haochen
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC)    [**Code**](https://github.com/HowsenFisher/GET3DGS)    [**Paper**](https://arxiv.org/abs/2407.08888)
+[**Paper**](../assets/file/美赛论文.pdf)
 - Certificate of Achievement; Was Designated As Finalist
 </div>
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">北斗杯</div><img src='images/beidoubei.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Beidou Cup</div><img src='images/beidoubei.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[基于北斗的智能牲畜管理系统 A intelligent livestock management system based on BeiDou Navigation Satellite System](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[A intelligent livestock management system based on BeiDou Navigation Satellite System](../assets/file/北斗论文.pdf)
 
 Haochen Yu, Xueyuan Yang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC)    [**Code**](https://github.com/HowsenFisher/GET3DGS)    [**Paper**](https://arxiv.org/abs/2407.08888)
+[**Paper**](../assets/file/北斗论文.pdf)
 - In recognition of the first prize winner(s) of Tianjin Municipality (Undergraduate Group) 
 - Submitted to the Twelfth BeiDou-Cup China Adolescents Science & Technology Invention Contest
 </div>
@@ -119,27 +122,18 @@ Haochen Yu, Xueyuan Yang
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Malab-GSim</div><img src='images/GSim.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[基于3D高斯溅射的多物智能仿真平台](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[A Multi-Object Intelligent Simulation Platform Based on 3D Gaussian Sputtering](javascript:void(0))
 
 Haochen Yu, Weixi Gong, Hongyuan Liu
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC)    [**Code**](https://github.com/HowsenFisher/GET3DGS)
-<!-- - In recognition of the first prize winner(s) of Tianjin Municipality (Undergraduate Group) 
-- Submitted to the Twelfth BeiDou-Cup China Adolescents Science & Technology Invention Contest -->
+[**Project**](javascript:void(0))    [**Code**](javascript:void(0))
+
 </div>
 </div>
 
 # 🔨 Research Projects
-- “新一代人工智能国家科技重大专项”——人工智能基础模型支撑平台与评测技术
-- QY1-FZHJDCXJMGJYZ
-- QY2-ZSSZOHTYMXSJJ
-- 国自然联合基金——不确定环境下小样本认知学习与目标识别理论和方法
-- CS-QSJQDXDFZDTMBDGZ
-- TF
-- BKY1
-- BKY2
-- 仪器
-- LY
+- National Science and Technology Major Project (2022ZD0116305)
+- The National Nature Science Foundation of China under Grant (62227801 and U20B2062)
 
 # 🎖 Honors and Awards
 - *2019.06* Second Prize in Mathematics Competition of University of Science and Technology Beijing, USTB.
