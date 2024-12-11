@@ -122,7 +122,7 @@ Haochen Yu, Xueyuan Yang
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Malab-GSim</div><img src='images/GSim.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[A Multi-Object Intelligent Simulation Platform Based on 3D Gaussian Sputtering](javascript:void(0))
+[A Multi-Object Intelligent Simulation Platform Based on 3D Gaussian Splatting](javascript:void(0))
 
 Haochen Yu, Weixi Gong, Hongyuan Liu
 
