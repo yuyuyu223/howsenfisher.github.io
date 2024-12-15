@@ -19,7 +19,7 @@ redirect_from:
 
 I received the B.E. degree of the Department of Computer Science and Technology from the University of Science and Technology Beijing in 2022. Currently, I am pursuing the Ph.D. degree from the University of Science and Technology Beijing. My research focuses on 3D controllable generation and simulation.
 
-I have published 4 papers at the top international AI conferences and journals with total <a href='#'>google scholar citations <strong><span id='total_cit'></span></strong></a> (You can also use google scholar badge <a href='#'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I have published 4 papers at the top international AI conferences and journals with total <a href='#'>google scholar citations <strong><span id='total_cit'></span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=P8hQuaYAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
 
 # 🔥 News
