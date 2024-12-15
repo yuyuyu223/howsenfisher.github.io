@@ -19,7 +19,7 @@ redirect_from:
 
 I received the B.E. degree of the Department of Computer Science and Technology from the University of Science and Technology Beijing in 2022. Currently, I am pursuing the Ph.D. degree from the University of Science and Technology Beijing. My research focuses on 3D controllable generation and simulation.
 
-I have published 4 papers at the top international AI conferences and journals with total <a href='#'>google scholar citations <strong><span id='total_cit'></span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=P8hQuaYAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I have published 4 papers at the top international AI conferences and journals with total <a href='https://scholar.google.com/citations?user=P8hQuaYAAAAJ'>google scholar citations <strong><span id='total_cit'></span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=P8hQuaYAAAAJ'><img src="https://img.shields.io/endpoint?url=https://google-scholar-badge.replit.app/citations?user=P8hQuaYAAAAJ&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
 
 # 🔥 News
@@ -38,7 +38,7 @@ I have published 4 papers at the top international AI conferences and journals w
 
 **Haochen Yu**, Weixi Gong, Jiansheng Chen, Huimin Ma
 
-[**Project**](https://get3dgs-projectpage.netlify.app/)   [**Code**](javascript:void(0))    [**Paper**](https://ieeexplore.ieee.org/document/10777594)
+<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D10.1109%2FTCSVT.2024.3511342&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> [**Project**](https://get3dgs-projectpage.netlify.app/)   [**Code**](javascript:void(0))    [**Paper**](https://ieeexplore.ieee.org/document/10777594)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
 </div>
