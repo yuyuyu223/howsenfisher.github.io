@@ -23,10 +23,11 @@ I have published 4 papers at the top international AI conferences and journals w
 
 
 # 🔥 News
+- *2024.12*: &nbsp;🎉🎉 HomuGAN accepted by <font color="red">TIP 2024</font>.
 - *2024.12*: &nbsp;🎉🎉 ProtoCar accepted by <font color="red">AAAI 2025</font>.
 - *2024.12*: &nbsp;🎉🎉 RRT-MVS accepted by <font color="red">AAAI 2025</font>.
 - *2024.11*: &nbsp;🎉🎉 GET3DGS accepted by <font color="red">TCSVT 2024</font>. 
-- *2024.11*: &nbsp;🎉🎉 HomuGAN requires MINOR REVISIONS for ENGLISH USAGE before <font color="red">TIP</font> acceptance (AQE).
+
 
 
 # 📝 Publications 
