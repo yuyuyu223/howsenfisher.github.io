@@ -39,7 +39,7 @@ I have published 4 papers at the top international AI conferences and journals w
 
 **Haochen Yu**, Weixi Gong, Jiansheng Chen, Huimin Ma
 
-<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D10.1109%2FTCSVT.2024.3511342&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> [**Project**](https://get3dgs-projectpage.netlify.app/)   [**Code**](javascript:void(0))    [**Paper**](https://ieeexplore.ieee.org/document/10777594)
+<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D10.1109%2FTCSVT.2024.3511342&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> [**Project**](https://yuyuyu223.github.io/GET3DGS-projectpage/)   [**Code**](https://gitee.com/HowsenFisher/get3-dgs)    [**Paper**](../assets/file/TCSVT-paper.pdf)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
 </div>
@@ -51,11 +51,13 @@ I have published 4 papers at the top international AI conferences and journals w
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP 2024</div><img src='images/TIP2024.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+	
 [HumoGAN: A 3D-aware GAN with the Method of Cylindrical Spatial-Constrained Sampling](javascript:void(0))
 
 **Haochen Yu**, Weixi Gong, Jiansheng Chen, Huimin Ma
 
-[**Project**](javascript:void(0))    [**Code**](javascript:void(0))    [**Paper**](javascript:void(0))
+<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D10.1109%2FTIP.2024.3520423&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> 
+[**Project**](https://yuyuyu223.github.io/homugan-projectpage/)    [**Code**](https://gitee.com/HowsenFisher/homugan)    [**Paper**](javascript:void(0))
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
 </div>
