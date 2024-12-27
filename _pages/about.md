@@ -62,7 +62,7 @@ I have published 4 papers at the top international AI conferences and journals w
 </div>
 </div>
 
-
+- [H. Yu, W. Gong, J. Chen and H. Ma, "HomuGAN: A 3D-aware GAN with the Method of Cylindrical Spatial-Constrained Sampling," in IEEE Transactions on Image Processing, doi: 10.1109/TIP.2024.3520423.](https://ieeexplore.ieee.org/document/10816358) **TIP 2024**
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/aaai2025.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -177,3 +177,13 @@ Haochen Yu, Weixi Gong, Hongyuan Liu
 
 # 💻 Internships
 <!-- - *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
+
+
+
+<div>
+    <!-- <img src="images/GSim.png" alt="Video thumbnail"> -->
+    <video width="100%" height="auto" controls preload="metadata">
+        <source src="images/GSim.mp4" type="video/mp4">
+        <p>Your browser does not support HTML5 video.</p>
+    </video>
+</div>
