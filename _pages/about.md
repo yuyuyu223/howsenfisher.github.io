@@ -52,7 +52,7 @@ I have published 4 papers at the top international AI conferences and journals w
 <div class='paper-box-text' markdown="1">
 
 	
-[HumoGAN: A 3D-aware GAN with the Method of Cylindrical Spatial-Constrained Sampling](javascript:void(0))
+[HumoGAN: A 3D-aware GAN with the Method of Cylindrical Spatial-Constrained Sampling](https://ieeexplore.ieee.org/document/10816358)
 
 **Haochen Yu**, Weixi Gong, Jiansheng Chen, Huimin Ma
 
