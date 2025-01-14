@@ -178,12 +178,3 @@ Haochen Yu, Weixi Gong, Hongyuan Liu
 # 💻 Internships
 <!-- - *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
 
-
-
-<div>
-    <!-- <img src="images/GSim.png" alt="Video thumbnail"> -->
-    <video width="100%" height="auto" controls preload="metadata">
-        <source src="images/GSim.mp4" type="video/mp4">
-        <p>Your browser does not support HTML5 video.</p>
-    </video>
-</div>
