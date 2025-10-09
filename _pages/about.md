@@ -19,10 +19,14 @@ redirect_from:
 
 I received the B.E. degree of the Department of Computer Science and Technology from the University of Science and Technology Beijing in 2022. Currently, I am pursuing the Ph.D. degree from the University of Science and Technology Beijing. My research focuses on 3D controllable generation and simulation.
 
-I have published 4 papers at the top international AI conferences and journals with total <a href='https://scholar.google.com/citations?user=P8hQuaYAAAAJ'>google scholar citations <strong><span id='total_cit'></span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=P8hQuaYAAAAJ'><img src="https://img.shields.io/endpoint?url=https://google-scholar-badge.replit.app/citations?user=P8hQuaYAAAAJ&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I have published papers at the top international AI conferences and journals with total <a href='https://scholar.google.com/citations?user=P8hQuaYAAAAJ'>google scholar citations <strong><span id='total_cit'></span></strong></a> 
+<!-- (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=P8hQuaYAAAAJ'> -->
+<!-- <img src="https://img.shields.io/endpoint?url=https://google-scholar-badge.replit.app/citations?user=P8hQuaYAAAAJ&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
 # 🔥 News
+- *2025.09*: &nbsp;🎉🎉 MVSMamba accepted by <font color="red">NeurIPS 2025</font>.
+- *2025.06*: &nbsp;🎉🎉 MonoMVSNet accepted by <font color="red">ICCV 2025</font>.
 - *2024.12*: &nbsp;🎉🎉 HomuGAN accepted by <font color="red">TIP 2024</font>.
 - *2024.12*: &nbsp;🎉🎉 ProtoCar accepted by <font color="red">AAAI 2025</font>.
 - *2024.12*: &nbsp;🎉🎉 RRT-MVS accepted by <font color="red">AAAI 2025</font>.
@@ -30,7 +34,45 @@ I have published 4 papers at the top international AI conferences and journals w
 
 
 
-# 📝 Publications 
+# 📝 Papers 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025.08</div><img src='images/instdrive.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[InstDrive: Instance-Aware 3D Gaussian Splatting for Driving Scenes](https://arxiv.org/abs/2508.12015)
+
+Hongyuan Liu, **Haochen Yu**, Jianfei Jiang, Qiankun Liu, Jiansheng Chen, Huimin Ma
+
+<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D10.48550%2FarXiv.2508.12015&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> [**Project**](https://instdrive.github.io/)   [**Code**](#)    [**Paper**](https://arxiv.org/abs/2508.12015)
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/mvsmamba.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MVSMamba: Multi-View Stereo with State Space Model](#)
+
+Jianfei Jiang, Qiankun Liu, Hongyuan Liu, **Haochen Yu**, Liyong Wang, Jiansheng Chen, Huimin Ma
+
+<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D10.48550%2FarXiv.2507.11333&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> [**Project**](#)   [**Code**](https://github.com/JianfeiJ/MonoMVSNet)    [**Paper**](https://arxiv.org/pdf/2507.11333)
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/monomvsnet.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MonoMVSNet: Monocular Priors Guided Multi-View Stereo Network](https://arxiv.org/abs/2507.11333)
+
+Jianfei Jiang, Qiankun Liu, **Haochen Yu**, Hongyuan Liu, Liyong Wang, Jiansheng Chen, Huimin Ma
+
+<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D10.48550%2FarXiv.2507.11333&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> [**Project**](#)   [**Code**](https://github.com/JianfeiJ/MonoMVSNet)    [**Paper**](https://arxiv.org/pdf/2507.11333)
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2024</div><img src='images/TCSVT2024.jpeg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -67,11 +109,12 @@ I have published 4 papers at the top international AI conferences and journals w
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/aaai2025.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[ProtoCar: Learning 3D Vehicle Prototypes from Single-View and Unconstrained driving scene Images](javascript:void(0))
+[ProtoCar: Learning 3D Vehicle Prototypes from Single-View and Unconstrained driving scene Images](https://ojs.aaai.org/index.php/AAAI/article/view/32581)
 
 Hongyuan Liu, **Haochen Yu**, Bochao Zou, Juntao Lyu, meiqi, Jiansheng Chen, Huimin Ma
 
-[**Project**](javascript:void(0))    [**Code**](javascript:void(0))    [**Paper**](javascript:void(0))
+<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D10.1609%2Faaai.v39i5.32581&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> 
+[**Project**](javascript:void(0))    [**Code**](javascript:void(0))    [**Paper**](https://ojs.aaai.org/index.php/AAAI/article/view/32581)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
 </div>
@@ -80,11 +123,12 @@ Hongyuan Liu, **Haochen Yu**, Bochao Zou, Juntao Lyu, meiqi, Jiansheng Chen, Hui
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/aaai2025_2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[RRT-MVS: Recurrent Regularization Transformer for Multi-View Stereo](javascript:void(0))
+[RRT-MVS: Recurrent Regularization Transformer for Multi-View Stereo]([javascript:void(0)](https://ojs.aaai.org/index.php/AAAI/article/view/32418))
 
 Jianfei Jiang, Liyong Wang, **Haochen Yu**, Tianyu Hu, Jiansheng Chen, Huimin Ma
 
-[**Project**](javascript:void(0))    [**Code**](javascript:void(0))    [**Paper**](javascript:void(0))
+<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D10.1609%2Faaai.v39i4.32418&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> 
+[**Project**](javascript:void(0))    [**Code**](javascript:void(0))    [**Paper**]([javascript:void(0)](https://ojs.aaai.org/index.php/AAAI/article/view/32418))
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
 </div>
