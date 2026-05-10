@@ -1,19 +1,41 @@
 <script>
     $(document).ready(function () {
-        {% if site.google_scholar_stats_use_cdn %}
-        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
-        {% else %}
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
-        {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
+        var gsDataUrls = [
+            'https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data.json',
+            'https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/gs_data.json'
+        ];
+
+        function paperCitationTotal(publications) {
+            if (!publications) {
+                return 0;
+            }
+            return Object.keys(publications).reduce(function (total, key) {
+                return total + Number(publications[key]['num_citations'] || 0);
+            }, 0);
+        }
+
+        function renderGoogleScholarStats(data) {
+            var totalCitation = data['citedby'] || paperCitationTotal(data['publications']);
             document.getElementById('total_cit').innerHTML = totalCitation;
             var citationEles = document.getElementsByClassName('show_paper_citations')
             Array.prototype.forEach.call(citationEles, element => {
                 var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
+                var publication = data['publications'] && data['publications'][paperId]
+                var numCitations = publication ? publication['num_citations'] || 0 : 0
                 element.innerHTML = '| Citations: ' + numCitations;
             });
+        }
+
+        $.ajax({
+            url: gsDataUrls[0],
+            dataType: 'json',
+            cache: false
+        }).done(renderGoogleScholarStats).fail(function () {
+            $.ajax({
+                url: gsDataUrls[1],
+                dataType: 'json',
+                cache: false
+            }).done(renderGoogleScholarStats);
         });
     })
 </script>

@@ -1,26 +1,32 @@
 from scholarly import scholarly
-import jsonpickle
 import json
 from datetime import datetime
 import os
 
-author: dict = scholarly.search_author_id('P8hQuaYAAAAJ')
+scholar_id = os.environ.get('GOOGLE_SCHOLAR_ID', 'P8hQuaYAAAAJ')
+
+author: dict = scholarly.search_author_id(scholar_id)
 scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
-name = author['name']
 author['updated'] = str(datetime.now())
-author['publications'] = {v['author_pub_id']:v for v in author['publications']}
+
+publications = {}
+for publication in author.get('publications', []):
+    publication['num_citations'] = int(publication.get('num_citations') or 0)
+    publications[publication['author_pub_id']] = publication
+author['publications'] = publications
+author['citedby'] = int(author.get('citedby') or sum(
+    publication['num_citations'] for publication in publications.values()
+))
+
 print(json.dumps(author, indent=2))
 os.makedirs('results', exist_ok=True)
-with open(f'results/gs_data.json', 'w') as outfile:
+with open('results/gs_data.json', 'w') as outfile:
     json.dump(author, outfile, ensure_ascii=False)
 
-for k, publication in author['publications'].items():
-    publication['num_citations'] = scholarly.citedby(k).num_citations
-    
 shieldio_data = {
   "schemaVersion": 1,
   "label": "citations",
-  "message": f"{author['citedby']}",
+  "message": f"{author.get('citedby', 0)}",
 }
-with open(f'results/gs_data_shieldsio.json', 'w') as outfile:
+with open('results/gs_data_shieldsio.json', 'w') as outfile:
     json.dump(shieldio_data, outfile, ensure_ascii=False)

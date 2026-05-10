@@ -36,6 +36,21 @@ I have published papers at the top international AI conferences and journals wit
 
 # 📝 Papers 
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025.10</div><img src='images/gaucy.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[GauCy: Hybrid Cylinder-Emissive Gaussian Splatting for 3D Sparse-View Driving Scenes Reconstruction](https://arxiv.org/pdf/2510.07856)
+
+**Haochen Yu**, Qiankun Liu , Hongyuan Liu, Jianfei Jiang, Juntao Lyu, Jiansheng Chen, Huimin Ma
+
+<img src=""> [**Project**](https://xyzc-ylinder-projectpage.vercel.app/)   [**Code**](https://github.com/yuyuyu223/XYZCylinder)    [**Paper**]()
+
+</div>
+</div>
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025.08</div><img src='images/instdrive.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -43,7 +58,7 @@ I have published papers at the top international AI conferences and journals wit
 
 Hongyuan Liu, **Haochen Yu**, Jianfei Jiang, Qiankun Liu, Jiansheng Chen, Huimin Ma
 
-<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D10.48550%2FarXiv.2508.12015&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> [**Project**](https://instdrive.github.io/)   [**Code**](#)    [**Paper**](https://arxiv.org/abs/2508.12015)
+<img src=""> [**Project**](https://instdrive.github.io/)   [**Code**](#)    [**Paper**](https://arxiv.org/abs/2508.12015)
 
 </div>
 </div>
@@ -56,7 +71,7 @@ Hongyuan Liu, **Haochen Yu**, Jianfei Jiang, Qiankun Liu, Jiansheng Chen, Huimin
 
 Jianfei Jiang, Qiankun Liu, Hongyuan Liu, **Haochen Yu**, Liyong Wang, Jiansheng Chen, Huimin Ma
 
-<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D10.48550%2FarXiv.2507.11333&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> [**Project**](#)   [**Code**](https://github.com/JianfeiJ/MonoMVSNet)    [**Paper**](https://arxiv.org/pdf/2507.11333)
+<img src=""> [**Project**](#)   [**Code**](https://github.com/JianfeiJ/MonoMVSNet)    [**Paper**](https://arxiv.org/pdf/2507.11333)
 
 </div>
 </div>
@@ -69,7 +84,7 @@ Jianfei Jiang, Qiankun Liu, Hongyuan Liu, **Haochen Yu**, Liyong Wang, Jiansheng
 
 Jianfei Jiang, Qiankun Liu, **Haochen Yu**, Hongyuan Liu, Liyong Wang, Jiansheng Chen, Huimin Ma
 
-<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D10.48550%2FarXiv.2507.11333&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> [**Project**](#)   [**Code**](https://github.com/JianfeiJ/MonoMVSNet)    [**Paper**](https://arxiv.org/pdf/2507.11333)
+<img src=""> [**Project**](#)   [**Code**](https://github.com/JianfeiJ/MonoMVSNet)    [**Paper**](https://arxiv.org/pdf/2507.11333)
 
 </div>
 </div>
@@ -81,7 +96,7 @@ Jianfei Jiang, Qiankun Liu, **Haochen Yu**, Hongyuan Liu, Liyong Wang, Jiansheng
 
 **Haochen Yu**, Weixi Gong, Jiansheng Chen, Huimin Ma
 
-<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D10.1109%2FTCSVT.2024.3511342&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> [**Project**](https://yuyuyu223.github.io/GET3DGS-projectpage/)   [**Code**](https://gitee.com/HowsenFisher/get3-dgs)    [**Paper**](../assets/file/TCSVT-paper.pdf)
+<img src=""> [**Project**](https://yuyuyu223.github.io/GET3DGS-projectpage/)   [**Code**](https://gitee.com/HowsenFisher/get3-dgs)    [**Paper**](../assets/file/TCSVT-paper.pdf)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
 </div>
@@ -98,7 +113,7 @@ Jianfei Jiang, Qiankun Liu, **Haochen Yu**, Hongyuan Liu, Liyong Wang, Jiansheng
 
 **Haochen Yu**, Weixi Gong, Jiansheng Chen, Huimin Ma
 
-<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D10.1109%2FTIP.2024.3520423&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> 
+<img src=""> 
 [**Project**](https://yuyuyu223.github.io/homugan-projectpage/)    [**Code**](https://gitee.com/HowsenFisher/homugan)    [**Paper**](javascript:void(0))
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
@@ -113,7 +128,7 @@ Jianfei Jiang, Qiankun Liu, **Haochen Yu**, Hongyuan Liu, Liyong Wang, Jiansheng
 
 Hongyuan Liu, **Haochen Yu**, Bochao Zou, Juntao Lyu, meiqi, Jiansheng Chen, Huimin Ma
 
-<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D10.1609%2Faaai.v39i5.32581&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> 
+<img src=""> 
 [**Project**](javascript:void(0))    [**Code**](javascript:void(0))    [**Paper**](https://ojs.aaai.org/index.php/AAAI/article/view/32581)
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
@@ -127,7 +142,7 @@ Hongyuan Liu, **Haochen Yu**, Bochao Zou, Juntao Lyu, meiqi, Jiansheng Chen, Hui
 
 Jianfei Jiang, Liyong Wang, **Haochen Yu**, Tianyu Hu, Jiansheng Chen, Huimin Ma
 
-<img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.juleskreuer.eu%2Fcitation-badge.php%3Fshield%26doi%3D10.1609%2Faaai.v39i4.32418&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"> 
+<img src=""> 
 [**Project**](javascript:void(0))    [**Code**](javascript:void(0))    [**Paper**]([javascript:void(0)](https://ojs.aaai.org/index.php/AAAI/article/view/32418))
 <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 </div>
