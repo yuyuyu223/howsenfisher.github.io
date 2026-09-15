@@ -1,4 +1,9 @@
 <script src="assets/js/main.min.js"></script>
 
 {% include analytics.html %}
-{% include fetch_google_scholar_stats.html %}
+{% comment %}
+  Google Scholar 引用统计已停用（页面不再展示引用量）。
+  恢复方法：去掉本对 comment 标签即可；_includes/fetch_google_scholar_stats.html 仍保留。
+  停用原因：该脚本从 raw.githubusercontent.com / cdn.jsdelivr.net 拉 JSON，
+  境内两者均不可达，每次访问只会产生两次必然失败的请求。
+{% endcomment %}

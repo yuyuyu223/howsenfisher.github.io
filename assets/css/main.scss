@@ -107,3 +107,247 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* Honors and Awards 卡片网格 */
+.award-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: .9em;
+    margin: 1em 0 2em 0;
+}
+
+.award-card {
+    border: 1px solid $border-color;
+    border-left: 3px solid #586069;
+    border-radius: 4px;
+    padding: .85em 1em;
+    background: #fff;
+
+    .award-meta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: .45em;
+    }
+
+    .award-level {
+        font-size: .7em;
+        font-weight: bold;
+        letter-spacing: .04em;
+        text-transform: uppercase;
+        color: #fff;
+        background: #586069;
+        padding: .18em .5em;
+        border-radius: 3px;
+        white-space: nowrap;
+    }
+
+    .award-date {
+        font-size: .78em;
+        color: #7a8288;
+        white-space: nowrap;
+    }
+
+    .award-name {
+        font-size: .95em;
+        line-height: 1.35;
+        margin-bottom: .3em;
+    }
+
+    .award-org {
+        font-size: .8em;
+        color: #7a8288;
+        line-height: 1.3;
+    }
+
+    &:hover { box-shadow: 0 2px 8px rgba(0,0,0,.09); }
+
+    /* 级别：国际 > 国家 > 省市/区域（同一级） > 校级 > 奖学金/荣誉 */
+    &.level-intl     { border-left-color: #6f42c1; .award-level { background: #6f42c1; } }
+    &.level-national { border-left-color: #b30000; .award-level { background: #b30000; } }
+    &.level-region   { border-left-color: #00369f; .award-level { background: #00369f; } }
+    &.level-school   { border-left-color: #586069; .award-level { background: #586069; } }
+    &.level-honor    { border-left-color: #1a7f37; .award-level { background: #1a7f37; } }
+}
+
+/* Educations / Internships 通用信息卡片 */
+.info-card {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.1em;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    padding: 1em 1.2em;
+    margin-bottom: .9em;
+    background: #fff;
+
+    &:hover { box-shadow: 0 2px 8px rgba(0,0,0,.09); }
+
+    /* 校徽：校色圆底 + 白色剪影 */
+    .card-badge {
+        flex: 0 0 auto;
+        width: 62px;
+        height: 62px;
+        border-radius: 50%;
+        background: #005ba3;              /* 北科大官方校色 */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 80%;
+            height: 80%;
+            object-fit: contain;
+            filter: brightness(0) invert(1);   /* 换成彩色校徽时删掉此行 */
+        }
+    }
+
+    /* 公司 logo：圆角方块 */
+    .company-logo {
+        flex: 0 0 auto;
+        width: 56px;
+        height: 56px;
+        border-radius: 12px;
+        background: #fff;
+        border: 1px solid $border-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img { width: 76%; height: 76%; object-fit: contain; }
+    }
+
+    /* 科研项目左侧图标 */
+    .card-icon {
+        flex: 0 0 auto;
+        width: 64px;
+        height: 64px;
+        color: #005ba3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg { width: 34px; height: 34px; fill: currentColor; }
+        img { width: 100%; height: 100%; object-fit: contain; }
+    }
+
+    .card-body {
+        flex: 1 1 200px;
+
+        .card-title { font-weight: bold; }
+        .card-sub   { font-size: .93em; margin: .15em 0 .25em; }
+        .card-note  { font-size: .84em; color: #7a8288; line-height: 1.4; }
+
+        /* 学历 / 职位强弱，放在标题后凸显 */
+        .card-role {
+            display: inline-block;
+            vertical-align: .1em;
+            margin-left: .5em;
+            padding: .1em .62em;
+            border-radius: 999px;
+            font-size: .76em;
+            font-weight: bold;
+            letter-spacing: .02em;
+            color: #005ba3;
+            background: rgba(0, 91, 163, .10);
+            border: 1px solid rgba(0, 91, 163, .22);
+            white-space: nowrap;
+        }
+    }
+
+    .card-date {
+        font-size: .82em;
+        color: #7a8288;
+        white-space: nowrap;
+        margin-left: auto;
+    }
+
+    /* 右侧小图标（学位 / 在职状态） */
+    .icon-chip {
+        flex: 0 0 auto;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 91, 163, .10);   /* 默认校色浅底 */
+        color: #005ba3;
+
+        svg { width: 23px; height: 23px; fill: currentColor; }
+
+        &.current { background: rgba(26, 127, 55, .12); color: #1a7f37; }
+        &.ended   { background: rgba(122, 130, 136, .12); color: #7a8288; }
+    }
+}
+
+/* GSim featured 卡片下方的配图与链接（左边缘与卡片内正文对齐）
+   缩进 = 卡片 padding-left 1.2em + 图标 64px + flex gap 1.1em + 边框 1px */
+.card-follow {
+    margin: -.35em 0 1.5em calc(1.2em + 64px + 1.1em + 1px);
+
+    .card-fig img {
+        display: block;
+        width: 100%;
+        border: 1px solid $border-color;
+        border-radius: 4px;
+    }
+
+    .card-links {
+        margin-top: .6em;
+
+        a { margin-right: 1.2em; font-size: .9em; }
+    }
+}
+
+/* 课题组资助信息（放在项目卡片下方的一行说明） */
+.grant-note {
+    font-size: .85em;
+    color: #7a8288;
+    margin: .3em 0 1.8em;
+}
+
+/* 自我介绍里的研究方向标签 */
+.tag-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .45em;
+    margin: .1em 0 1em;
+
+    .tag {
+        padding: .2em .7em;
+        border-radius: 999px;
+        font-size: .8em;
+        font-weight: bold;
+        letter-spacing: .02em;
+        color: #005ba3;
+        background: rgba(0, 91, 163, .10);
+        border: 1px solid rgba(0, 91, 163, .22);
+        white-space: nowrap;
+    }
+}
+
+/* 侧栏个人信息栏里的实验室 */
+.author__lab {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    margin: .6em 0 16px;
+    font-size: .82em;
+    color: #7a8288;
+
+    img {
+        flex: 0 0 auto;
+        width: 24px;
+        height: 24px;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 420px) {
+    .award-grid { grid-template-columns: 1fr; }
+    .info-card .card-date { margin-left: 0; }
+    .card-follow { margin-left: 1px; }
+    .info-card .card-body .card-role { display: block; width: fit-content; margin: .35em 0 0; white-space: normal; }
+}

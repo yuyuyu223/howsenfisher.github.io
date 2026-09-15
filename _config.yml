@@ -23,12 +23,16 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "于淏辰 Haochen Yu"
   avatar           : "images/yu1.png"
-  bio              : ""
+  bio              : "Ph.D. candidate in Computer Science, USTB. 3D controllable generation & reconstruction, feed-forward 3DGS, autonomous driving simulation."
+  lab              : "3D Image Lab, USTB"
+  lab_logo         : "images/lab-mark.png"
   location         : "Beijing, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=P8hQuaYAAAAJ"
-  email            : "haochen.yu@xs.ustb.edu.cn"
+  email            : "yuhaochen_223@126.com"
+  wechat           : "yudage223"
+  qq               : "956535234"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +41,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "https://yuyuyu223.github.io/howsenfisher.github.io/"
   google_plus      :
   keybase          :
   instagram        :

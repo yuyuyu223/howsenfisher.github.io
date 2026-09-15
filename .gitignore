@@ -1,3 +1,10 @@
 _site/
 push.sh
 .DS_Store
+
+# 本地开发环境产物（无 root 机器的本地适配，与 GitHub Pages 构建无关）
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
+run_server_local.sh
+.vscode/
