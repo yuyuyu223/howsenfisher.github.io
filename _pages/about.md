@@ -27,9 +27,9 @@ I received the B.E. degree from the Department of Computer Science and Technolog
   <span class="tag">Autonomous Driving Simulation</span>
 </div>
 
-My work has led to <a href="/#-papers">10 papers</a> at conferences and journals including **CVPR, NeurIPS, ICCV, AAAI, ICASSP, IEEE TIP and IEEE TCSVT** — five of them as first or co-first author — together with two competition papers, and <a href="/#-honors-and-awards">national-level awards</a> including the first prize in the National College Student Mathematics Competition and a Finalist award in the ICM.
+My work has led to <a href="#-papers">10 papers</a> at conferences and journals including **CVPR, NeurIPS, ICCV, AAAI, ICASSP, IEEE TIP and IEEE TCSVT** — five of them as first or co-first author — together with two competition papers, and <a href="#-honors-and-awards">national-level awards</a> including the first prize in the National College Student Mathematics Competition and a Finalist award in the ICM.
 
-I completed a research internship at <a href="https://www.lixiang.com/" target="_blank" rel="noopener">Li Auto</a> and am currently working as a Physical AI Talent Program intern at <a href="https://www.xiaopeng.com/" target="_blank" rel="noopener">Xpeng Motors</a>. I lead the <a href="/#-research-projects">GSim</a> generative autonomous-driving simulator and take part in three national-level research projects, one of them as student lead.
+I completed a research internship at <a href="https://www.lixiang.com/" target="_blank" rel="noopener">Li Auto</a> and am currently working as a Physical AI Talent Program intern at <a href="https://www.xiaopeng.com/" target="_blank" rel="noopener">Xpeng Motors</a>. I lead the <a href="#-research-projects">GSim</a> generative autonomous-driving simulator and take part in three national-level research projects, one of them as student lead.
 
 <div class="notice notice--info" markdown="1">
 **🔎 I am open to new opportunities.** I will receive my Ph.D. in June 2027 and am looking for full-time research roles in 3D vision, 3D generative models, and autonomous driving simulation. Feel free to reach me at <a href="mailto:yuhaochen_223@126.com">yuhaochen_223@126.com</a>.
